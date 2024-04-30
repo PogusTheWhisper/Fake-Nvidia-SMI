@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fake-nvidia-smi"
+version = "0.2.0"
+description = "Just Flex with your friend that you have Nvidia A100"
+authors = ["PogusTheWhisper <gusjangkid@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
